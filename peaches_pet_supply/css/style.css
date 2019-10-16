@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css?family=Modak|Roboto+Condensed|Roboto:400,700i&display=swap');
+body {
+  background-color: purple;
+  font-family: "Cursive";
+  color: pink;
+}
+
+h1 {
+  text-align: center;
+  font-style: italic;
+  color: pink;
+  text-decoration: underline;
+  text-decoration-color: white;
+  background-color: white;
+  border: 2px solid silver;
+  padding: 20px;
+  margin-top: 60px;
+
+}
+
+ul {
+  font-size: 20px;
+  font-kerning: normal;
+  font-style: normal;
+  font-family: Roboto;
+  text-align: left;
+  font-weight: bolder;
+}
+
+.pet {
+  color: darkgreen;
+  font-style: bold;
+}
+
+.fish {
+  color: blue;
+  text-decoration: line-through;
+}
+
+.bird {
+  color: darkorange;
+  font-style:italic;
+}
+
+#first-list {
+  background-color: white;
+}
+
+#second-list {
+  background-color: white;
+}
+
+#third-list {
+  background-color: white;
+}
+
+#first-list li {
+  display: inline-block;
+  margin: 30px;
+  width: 18%
+}
